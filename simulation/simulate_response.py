@@ -14,7 +14,7 @@ I_wheel = compute_inertia(wheel_mass, wheel_radius)
 I_sat = compute_inertia(sat_mass, sat_radius)
 
 # PID setup
-pid = PID(kp=6.0, ki=0.1, kd=3.0)
+pid = PID(kp=6.0, ki=0.2, kd=2.5)
 target_angle = np.pi / 2  # 90 degrees in radians
 
 # Sim loop setup
